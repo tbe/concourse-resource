@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/go-playground/validator/v10"
-	"go.loki.codes/concourse-resource/types"
+	"pkg.loki.codes/concourse-resource/types"
 )
 
 func RunCheck(resource any, setVersion func(any) error, validate *validator.Validate) (types.CheckOutput, error) {
