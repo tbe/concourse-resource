@@ -64,7 +64,14 @@ func main() {
 
 ```
 
-### Container build
+### Environment variables (metadata)
+
+The [Concourse metadata](https://concourse-ci.org/implementing-resource-types.html#resource-metadata) can be accessed with the help
+of some wrappers. 
+
+See [metadata](metadata)
+
+## Container build
 
 To build your container image, you may just symlink the binary to the correct locations. For example:
 
@@ -87,6 +94,10 @@ FROM scratch
 COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=builder /target/opt /opt
 ```
+
+## See also
+
+- [Concourse Documentation](https://concourse-ci.org/implementing-resource-types.html****)
 
 ## Testing
 
