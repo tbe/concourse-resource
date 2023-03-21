@@ -1,5 +1,8 @@
 # concourse-resource
 
+[![Go Report Card](https://goreportcard.com/badge/pkg.loki.codes/concourse-resource)](https://goreportcard.com/report/pkg.loki.codes/concourse-resource)
+[![Go Reference](https://pkg.go.dev/badge/pkg.loki.codes/concourse-resource.svg)](https://pkg.go.dev/pkg.loki.codes/concourse-resource)
+
 ***a Go module to simplify the development of concourse resources***
 
 ## Features
@@ -14,7 +17,7 @@ To validate your input, simply add the correct [`validator` tags](https://pkg.go
 
 ### flexible
 
-Use whatever library you want, do what ever you want. This modules takes only care about the communication with concourse.
+Use whatever library you want, do what ever you want. This module takes only care about the communication with concourse.
 No assumptions beyond that are made.
 
 
